@@ -6,9 +6,9 @@ package Code;
  */
 public class Usuario {
     
-    public static String name;
-    public static String rut;
-    public static String adress;
+    public String name;
+    public String rut;
+    public String adress;
     
     public Usuario(String name,String rut, String adress,boolean show){
         this.name=name;
