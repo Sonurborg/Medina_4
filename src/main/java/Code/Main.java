@@ -1,6 +1,7 @@
 package Code;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -8,7 +9,7 @@ import java.util.ArrayList;
  */
 public class Main {
     
-    public static ArrayList<Usuario> users= new ArrayList<Usuario>();
+    public static List<Usuario> users= new ArrayList<>();
     
     public static void main(String[]Args){
         loadUsers();

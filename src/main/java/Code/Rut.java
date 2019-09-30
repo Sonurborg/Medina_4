@@ -20,7 +20,6 @@ public class Rut {
         System.out.println("Ingrese el Rut del nuevo usuario SIN CODIGO VERIFICADOR");
         int number=IntInputReader.input(0,99999999);
         System.out.println("Ingrese el Codigo Verificador del Rut del nuevo usuario");
-        System.out.println();
         char code=CharInputReader.CharInput();
         return (number+"-"+code);
     }

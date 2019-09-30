@@ -11,8 +11,7 @@ public class Direccion {
     static Scanner intro = new Scanner(System.in);
     
     public static String read(){
-        System.out.println("A continuación deberá ingresar la Calle, Número, Ciudad y Región del usuario por separado,");
-        System.out.println("todo lo que esté después de un espacio no será considerado.");
+        System.out.println("A continuación deberá ingresar la Calle, Número, Ciudad y Región del usuario por separado");
         return validate();
     }
     
@@ -33,7 +32,8 @@ public class Direccion {
             return name;
         }else {
             System.out.println("Nombre de Usuario Inválido, favor intente nuevamente.");
-            name=validString(intro.next());
+            intro.next();
+            name=validString(intro.nextLine());
         }
         return name;
     }
